@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu - Ödev 1</title>
+    <link rel="stylesheet" href="ödev1.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <form onsubmit="alert('Form başarıyla gönderildi!'); return false;">
+            
+            <div class="form-group">
+                <label for="fullname">Ad Soyad:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefon:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-group">
+                <label for="birthdate">Doğum Tarihi:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+
+            <div class="form-group">
+                <label>Cinsiyet:</label>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="erkek">
+                    <label for="male" class="radio-label">Erkek</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="female" name="gender" value="kadin">
+                    <label for="female" class="radio-label">Kadın</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Ülke:</label>
+                <select id="country" name="country">
+                    <option value="" disabled selected>Ülke Seçiniz</option>
+                    <option value="tr">Ülke1</option>
+                    <option value="us">Ülke2</option>
+                    <option value="de">Ülke3</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Gönder</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
