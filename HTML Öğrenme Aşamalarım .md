@@ -11,4 +11,4 @@ buton yardımı ile ekledim. İsmi EK1 olarak ayarladım. Aynı depoda var.
 
 (16.01.2026) Üçüncü yaptığım şey. İstlenen ödev giriş kısmını yaptım. Depeya ödev1.css ve ödev1.html olarak ekledim.
 
-(28-31.1.2026) Katılmadığım ders kaydı izlendi. HTML Kodu yazıldı. CSS Kodu yazıldı
+(28-31.1.2026) Katılmadığım ders kaydı izlendi. HTML Kodu yazıldı. CSS Kodu yazıldı ve Ödev2 olarak css-html yüklendi.
