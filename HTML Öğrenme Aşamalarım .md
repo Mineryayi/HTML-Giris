@@ -10,3 +10,5 @@ buton yardımı ile ekledim. İsmi EK1 olarak ayarladım. Aynı depoda var.
 (14.01.2026) İkinci yaptığım şey bir metin oluşturarak css ile etrafını düzelttim. İsmi EK2 olarak ayarladım. Aynı depoda CSS ve HTML kısımları var. 
 
 (16.01.2026) Üçüncü yaptığım şey. İstlenen ödev giriş kısmını yaptım. Depeya ödev1.css ve ödev1.html olarak ekledim.
+
+(28-31.1.2026) Katılmadığım ders kaydı izlendi. HTML Kodu yazıldı. CSS Kodu yazıldı
