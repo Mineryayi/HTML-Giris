@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4; 
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.odev-no {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px; 
+    height: auto;
+    background-color: #fff;
+    padding: 15px;
+    gap: 15px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.ust-bolum {
+    display: flex;
+    flex-direction: row;
+    height: 500px; 
+    gap: 15px; 
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.item-sol {
+    background-color: #e74c3c; 
+    flex: 1; 
+}
+
+.sag-sutun {
+    display: flex;
+    flex-direction: column;
+    flex: 2; 
+    gap: 15px; 
+}
+
+.sag-ust-satir {
+    display: flex;
+    flex: 1; 
+    gap: 15px;
+}
+
+.item-sari {
+    background-color: #f1c40f;
+    flex: 1; }
+
+
+.item-yesil-kutu {
+    background-color: #7ab800;
+    flex: 1; }
+
+
+.item-mavi {
+    background-color: #3498db;
+    flex: 1; }
+
+
+.item-turuncu {
+    background-color: #f39c12;
+    flex: 1; }
+
+.item-alt-yesil {
+    background-color: #7ab800; 
+    height: 100px; 
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .ust-bolum {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .item-sol {
+        height: 200px;
+    }
+
+    .sag-sutun {
+        height: auto;
+    }
+
+    .sag-ust-satir {
+        flex-direction: column;
+        height: 200px;
+    }
+}
