@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitap Fiyat Hesaplama - Ödev 4</title>
+    <link rel="stylesheet" href="odev4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kitap Fiyat Hesaplama</h1>
+
+        <form id="kitapForm">
+            <label>Kitap Adı:</label>
+            <input type="text" id="kitapAdi" placeholder="Harry Potter" required>
+
+            <label>Normal Fiyat (TL):</label>
+            <input type="number" id="normalFiyat" placeholder="150" required>
+
+            <label>Sayfa Sayısı:</label>
+            <input type="number" id="sayfaSayisi" placeholder="250" required>
+
+            <label>
+                <input type="checkbox" id="uyeMi">
+                Üyeyim (Ekstra %5 indirim)
+            </label>
+
+            <button type="submit">Hesapla</button>
+        </form>
+
+        <div class="sonuc" id="sonuc"></div>
+    </div>
+
+    <script src="odev4.js"></script>
+</body>
+</html>
