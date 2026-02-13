@@ -16,3 +16,7 @@ buton yardımı ile ekledim. İsmi EK1 olarak ayarladım. Aynı depoda var.
 bazı teknik sorunlarından ara verildi. 
 
 (8.2.2026) ders kaydı tekrarı izlendi
+
+DAĞINIK ÇALIŞMAYA BAŞLANDI KAYIT TUTULMASI KESİLDİ
+
+(14.2.2026) Yeni ders tarihi ve ödev teslimi
